@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c0edcc9-f82b-4fca-8aec-a6585d412c61" name="Changes" comment="lite linesl">
-      <change afterPath="$PROJECT_DIR$/src/AdminUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AnvandarSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SkapaUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VanligaUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/korrektafel.java" afterDir="false" />
+    <list default="true" id="6c0edcc9-f82b-4fca-8aec-a6585d412c61" name="Changes" comment="jag har lagt till klasser">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Anvandarsystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnvandarSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnvandarSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/korrektafel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/korrektafel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +83,8 @@
       <updated>1708507356706</updated>
       <workItem from="1708507359382" duration="1666000" />
       <workItem from="1713476937133" duration="1651000" />
-      <workItem from="1713945956402" duration="3903000" />
+      <workItem from="1713945956402" duration="3967000" />
+      <workItem from="1714256498301" duration="2236000" />
     </task>
     <task id="LOCAL-00001" summary="lite lines">
       <created>1713478351880</created>
@@ -103,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713484335709</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="jag har lagt till klasser">
+      <created>1713949980697</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1713949980697</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +126,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lite lines" />
-    <option name="LAST_COMMIT_MESSAGE" value="lite lines" />
+    <MESSAGE value="jag har lagt till klasser" />
+    <option name="LAST_COMMIT_MESSAGE" value="jag har lagt till klasser" />
   </component>
 </project>
