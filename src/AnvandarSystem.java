@@ -19,7 +19,7 @@ public class AnvandarSystem {
         System.out.print("Ditt alternativ: ");
         val = hanzo.nextLine();
         //dessa är alternativ du får i början vilket bestämmer vad du vill göra i webbsidan, vilket kan vara vad som helst (webbsidan)
-        kaffe = korrektafel.korrekta(val);
+        kaffe = korrektafel.korrekta(val); //att den returnerar en integer från en string
 
         switch (kaffe) { //med hjälp av switch kan vi ta cases, alltså alternativen, case är då din input
             case 1 -> LoggaUser.loggain(); //använder klassen LoggaUser för att logga in
