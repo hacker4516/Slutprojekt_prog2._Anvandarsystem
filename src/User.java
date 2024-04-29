@@ -27,10 +27,4 @@ public class User { //detta ska användas för att samla in alla skapade och exi
     public ArrayList<String> getNyPass() {
         return nyPass;
     } //dessa två arraylists är getters som gör det möjligt att använda sig av stringen i flera klasser, som t.ex. SkapaUser
-    public ArrayList<String> getAdminName() {
-        return adminName;
-    }
-    public ArrayList<String> getAdminPass() {
-        return adminPass;
-    }
 }

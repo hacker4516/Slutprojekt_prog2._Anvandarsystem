@@ -23,7 +23,7 @@ public class AnvandarSystem {
         kaffe = korrektafel.korrekta(val); //att den returnerar en integer från en string
 
         switch (kaffe) { //med hjälp av switch kan vi ta cases, alltså alternativen, case är då din input
-            case 1 -> LoggaUser.loggain(); //använder klassen LoggaUser för att logga in
+            case 1 -> LoggaUser.LoggaIn(); //använder klassen LoggaUser för att logga in
             case 2 -> {
                 System.out.print("Välj användarnamn: ");
                 String userName = hanzo.nextLine();
