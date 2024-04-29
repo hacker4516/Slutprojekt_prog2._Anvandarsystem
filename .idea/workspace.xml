@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c0edcc9-f82b-4fca-8aec-a6585d412c61" name="Changes" comment="la till lite mer">
-      <change afterPath="$PROJECT_DIR$/src/LoggaUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AdminUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdminUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnvandarSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnvandarSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SkapaUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SkapaUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/korrektafel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/korrektafel.java" afterDir="false" />
+    <list default="true" id="6c0edcc9-f82b-4fca-8aec-a6585d412c61" name="Changes" comment="boop">
+      <change beforePath="$PROJECT_DIR$/src/LoggaUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoggaUser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +82,7 @@
       <workItem from="1713476937133" duration="1651000" />
       <workItem from="1713945956402" duration="3967000" />
       <workItem from="1714256498301" duration="2578000" />
-      <workItem from="1714334621552" duration="12094000" />
+      <workItem from="1714334621552" duration="12819000" />
     </task>
     <task id="LOCAL-00001" summary="lite lines">
       <created>1713478351880</created>
@@ -119,7 +112,21 @@
       <option name="project" value="LOCAL" />
       <updated>1714259120389</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="är ej klar men har gjort en hel delllll">
+      <created>1714363593082</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714363593082</updated>
+    </task>
+    <task id="LOCAL-00006" summary="boop">
+      <created>1714363859351</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1714363859351</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,7 +147,9 @@
     <MESSAGE value="lite lines" />
     <MESSAGE value="jag har lagt till klasser" />
     <MESSAGE value="la till lite mer" />
-    <option name="LAST_COMMIT_MESSAGE" value="la till lite mer" />
+    <MESSAGE value="är ej klar men har gjort en hel delllll" />
+    <MESSAGE value="boop" />
+    <option name="LAST_COMMIT_MESSAGE" value="boop" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
