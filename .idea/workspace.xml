@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c0edcc9-f82b-4fca-8aec-a6585d412c61" name="Changes" comment="boop">
-      <change beforePath="$PROJECT_DIR$/src/LoggaUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoggaUser.java" afterDir="false" />
-    </list>
+    <list default="true" id="6c0edcc9-f82b-4fca-8aec-a6585d412c61" name="Changes" comment="boop" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,7 +80,7 @@
       <workItem from="1713476937133" duration="1651000" />
       <workItem from="1713945956402" duration="3967000" />
       <workItem from="1714256498301" duration="2578000" />
-      <workItem from="1714334621552" duration="12819000" />
+      <workItem from="1714334621552" duration="12846000" />
     </task>
     <task id="LOCAL-00001" summary="lite lines">
       <created>1713478351880</created>
@@ -126,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1714363859351</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="boop">
+      <created>1714364320894</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1714364320894</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

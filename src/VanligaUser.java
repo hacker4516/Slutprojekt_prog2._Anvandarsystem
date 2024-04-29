@@ -1,6 +1,6 @@
 public class VanligaUser {
 
-    public VanligaUser(){ //denna används för att hitta ifall användaren loggad in är en vanlig användare utan permissions
+    public VanligaUser(){ //denna används för att se om användaren är "vanlig" samt visa vad den användaren kan göra med olika val, som t.ex. köpa burgare (exempel!!)
 
     }
 }
