@@ -11,6 +11,7 @@ public class AnvandarSystem {
     static int kaffe; //denna används för att se till ifall ditt val för ett av alternativen faktiskt stämmer och är nummer
     public AnvandarSystem(){ //för att lägga till i main
 
+
         boolean fortsatt = true;
 
         while(fortsatt) { //med boolean och while loop gör det möjligt att programmet inte avslutas efter ett konto har skapats

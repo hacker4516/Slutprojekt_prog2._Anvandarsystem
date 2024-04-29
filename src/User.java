@@ -1,17 +1,36 @@
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class User { //detta ska användas för att samla in alla skapade och existerande användare
 
-    static String[] NyName = new String[59];
-    static String[] NyPass = new String [59];
-
-    static String[] AdminName = new String[2];
-    static String[] AdminPass = new String[2];
+    private ArrayList<String> nyName = new ArrayList<>();
+    private ArrayList<String> nyPass = new ArrayList<>();
+    private ArrayList<String> adminName = new ArrayList<>();
+    private ArrayList<String> adminPass = new ArrayList<>();
     public User(){ //för alternativ 2, alltså logga in med användarnamn och kod
 
-        Arrays.fill(NyName, "Okej");
-        Arrays.fill(NyPass, "");
-
+        for (int i = 0; i < 59; i++) {
+            nyName.add("Okej");
+        }
+        for (int i = 0; i < 59; i++) {
+            nyPass.add("");
+        }
+        for (int i = 0; i < 2; i++) {
+            adminName.add("");
+        }
+        for (int i = 0; i < 2; i++) {
+            adminPass.add("");
+        }
+    }
+    public ArrayList<String> getNyName() {
+        return nyName;
+    }
+    public ArrayList<String> getNyPass() {
+        return nyPass;
+    } //dessa två arraylists är getters som gör det möjligt att använda sig av stringen i flera klasser, som t.ex. SkapaUser
+    public ArrayList<String> getAdminName() {
+        return adminName;
+    }
+    public ArrayList<String> getAdminPass() {
+        return adminPass;
     }
 }
