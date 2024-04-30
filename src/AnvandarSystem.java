@@ -22,20 +22,27 @@ public class AnvandarSystem {
         //dessa är alternativ du får i början vilket bestämmer vad du vill göra i webbsidan, vilket kan vara vad som helst (webbsidan)
         kaffe = korrektafel.korrekta(val); //att den returnerar en integer från en string
 
+            User anvandare = new User(); // Initialize the 'anvandare' variable
         switch (kaffe) { //med hjälp av switch kan vi ta cases, alltså alternativen, case är då din input
-            case 1 -> LoggaUser.LoggaIn(); //använder klassen LoggaUser för att logga in
-            case 2 -> {
+
+            case 1 -> LoggaUser.LoggaIn(anvandare);
+            // Pass the 'anvandare' variable to the LoggaIn method
+
+                case 2 -> {
                 System.out.print("Välj användarnamn: ");
                 String userName = hanzo.nextLine();
                 System.out.print("Välj lösenord: ");
                 String userPass = hanzo.nextLine();
                 SkapaUser.skapakonto(userName, userPass); //här skapas nya kontot, i koppling med klassen SkapaUser
                 System.out.println("\n");
-
                 Main.main(null); //programmet körs igen fast med nya kontot/n
-            }
+                }
             case 3 -> System.exit(0); //avslutar ba programmet
             default -> System.out.println("Alternativen är mellan 1, 2 eller 3!\n");
+
+
+
+            }
         }
     }
-}}
+}

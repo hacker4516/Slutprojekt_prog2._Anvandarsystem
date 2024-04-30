@@ -1,10 +1,10 @@
 import java.util.ArrayList;
 
 public class SkapaUser { //detta ska användas för alternativ 2, genom att skapa konto i användar system kan man logga in som vanlig användare
+    static boolean SammaSom = false; //ifall användarnamn matchar med en annan i systemet
 
-    static void skapakonto(String userNamn, String UserPass) {
+    static void skapakonto(String userNamn, String userPass) {
 
-        boolean SammaSom = false; //ifall användarnamn matchar med en annan i systemet
 
         User anvandare = new User(); //gör det möjligt att skapa en ny användare utan att den blir public
 
@@ -25,7 +25,7 @@ public class SkapaUser { //detta ska användas för alternativ 2, genom att skap
             for (int i = 0; i < nyNameList.size(); i++) {
                 if (nyNameList.get(i) == null || nyNameList.get(i).equalsIgnoreCase("Okej")) {
                     nyNameList.set(i, userNamn);
-                    nyPassList.set(i, UserPass);
+                    nyPassList.set(i, userPass);
                     System.out.println("\nKonto skapad, tack att du stödjer oss\n");
                     break;
                 }

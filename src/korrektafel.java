@@ -1,4 +1,6 @@
 import java.util.Scanner;
+import java.util.ArrayList;
+
 
 public class korrektafel { //detta ska användas för att se till ifall ditt val av alternativ är ett nummer och ett av alternativen
 
