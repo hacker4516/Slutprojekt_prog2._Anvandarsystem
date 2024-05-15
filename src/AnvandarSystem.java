@@ -1,47 +1,43 @@
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class AnvandarSystem {
-    static public Scanner hanzo = new Scanner(System.in); //min scanner jag använder i alla klasser
+    private Scanner hanzo;
+    private User anvandare;
+    //anvandare, alltså user används då över hela koden
 
-    static ArrayList<VanligaUser> vanlig = new ArrayList<>(); //de här är en arraylist för alla vanliga användare
+    public AnvandarSystem() {
+        hanzo = new Scanner(System.in);
+        anvandare = new User();
+    }
 
-    static ArrayList<AdminUser> Admin = new ArrayList<>(); //de här är en arraylist för alla admins
-    static String val; //ditt val i början
-    static int kaffe; //denna används för att se till ifall ditt val för ett av alternativen faktiskt stämmer och är nummer
-    public AnvandarSystem(){ //för att lägga till i main
+    public void runUserSystem() {
+        boolean running = true;
+        //en boolean för att se till att programmet runnas
 
+        while (running) {
+            System.out.println("Välj ett alternativ:");
+            System.out.println("1. Logga in\n2. Skapa konto\n3. Lämna webben\n");
+            System.out.print("Ditt alternativ: ");
+            int val = KorrektaFel.korrekta(hanzo.nextLine(), hanzo);
+            //det ser till att valet du har är inte bokstäver utan endast nummer
 
-        boolean fortsatt = true;
-
-        while(fortsatt) { //med boolean och while loop gör det möjligt att programmet inte avslutas efter ett konto har skapats
-        System.out.println("Välj ett alternativ:");
-        System.out.println("1. Logga in\n2. Skapa konto\n3. Lämna webben\n");
-        System.out.print("Ditt alternativ: ");
-        val = hanzo.nextLine();
-        //dessa är alternativ du får i början vilket bestämmer vad du vill göra i webbsidan, vilket kan vara vad som helst (webbsidan)
-        kaffe = korrektafel.korrekta(val); //att den returnerar en integer från en string
-
-            User anvandare = new User(); // Initialize the 'anvandare' variable
-        switch (kaffe) { //med hjälp av switch kan vi ta cases, alltså alternativen, case är då din input
-
-            case 1 -> LoggaUser.LoggaIn(anvandare);
-            // Pass the 'anvandare' variable to the LoggaIn method
-
-                case 2 -> {
-                System.out.print("Välj användarnamn: ");
-                String userName = hanzo.nextLine();
-                System.out.print("Välj lösenord: ");
-                String userPass = hanzo.nextLine();
-                SkapaUser.skapakonto(userName, userPass); //här skapas nya kontot, i koppling med klassen SkapaUser
-                System.out.println("\n");
-                Main.main(null); //programmet körs igen fast med nya kontot/n
-                }
-            case 3 -> System.exit(0); //avslutar ba programmet
-            default -> System.out.println("Alternativen är mellan 1, 2 eller 3!\n");
-
-
-
+            switch (val) {
+                case 1:
+                    LoggaUser.loggaIn(anvandare, hanzo);
+                    break;
+                    //använder sig av LoggaUser klassen
+                case 2:
+                    SkapaUser.skapaKonto(anvandare, hanzo);
+                    break;
+                    //använder sig av SkapaUser
+                case 3:
+                    System.out.println("Tack för att du använde vår tjänst. Hejdå!");
+                    running = false;
+                    break;
+                    //case 3 gör då att booleanen blir false och då avslutas denna while loop
+                default:
+                    System.out.println("Felaktigt alternativ. Försök igen.\n");
+                    //om valet är inte ett av alternativen
             }
         }
     }

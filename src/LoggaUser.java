@@ -1,27 +1,38 @@
 import java.util.ArrayList;
+import java.util.Scanner;
 
 
 public class LoggaUser { //används för att logga in, förstod inte varför det inte funkade i AnvandarSystem som SkapaUser gjorde
 //vad LoggaUser ger möjligheten till är att användaren kan sedan utföra olika saker, som till exempel köpa något osv
     //användare med admins roll kan även se hur många användare det finns samt namnen, och har möjligheten att ta bort användare också (egenskaper)
-
-    static boolean loggadIn; //för att se ifall användarnamnet och lösenordet stämmer med det som redan finns i systemet
-
-    public static void LoggaIn(User anvandare) {
+    public static void loggaIn(User anvandare, Scanner hanzo) {
         System.out.print("Ditt användarnamn: ");
-        String userNamn = AnvandarSystem.hanzo.nextLine();
+        String userNamn = hanzo.nextLine();
         System.out.print("Ditt lösenord: ");
-        String userPass = AnvandarSystem.hanzo.nextLine();
+        String userPass = hanzo.nextLine();
 
-        for (int i = 0; i < anvandare.getNyName().size(); i++) {
-            if (anvandare.getNyName().get(i) != null && anvandare.getNyName().get(i).equalsIgnoreCase(userNamn)
-                    && anvandare.getNyPass().get(i).equals(userPass)) {
+        ArrayList<String> nyNamnList = anvandare.getNyNamn();
+        ArrayList<String> nyPassList = anvandare.getNyPass();
+        //getter från User klassen som gör så att systemet får in redan skapade användare
+
+        boolean loggadIn = false;
+        for (int i = 0; i < nyNamnList.size(); i++) {
+            if (nyNamnList.get(i).equalsIgnoreCase(userNamn) && nyPassList.get(i).equals(userPass)) {
                 loggadIn = true;
-                System.out.println("Du är nu loggad in");
+                break;
             }
         }
+        //en for loop som kollar ifall namnet och koden stämmer med det som redan finns
+        //loggar in dig om det stämmer
 
-        System.out.println("Fel användarnamn eller lösenord.");
-
+        if (loggadIn) {
+            System.out.println("Loggad in");
+            //här är det möjligt att lägga till en UI till logga in featuren (displayUI(blah blah))
+            //när du är loggad in, kommer det att displaya en ui, likt användar system switch delen
+            //som exempel kan du visa profil, köpa något, byta lösenord, eller logga ut
+        } else {
+            System.out.println("Felaktigt användarnamn eller lösenord.");
+        }
+        //bara en if-else metod som visar ifall man har skrivit rätt eller inte
     }
 }
