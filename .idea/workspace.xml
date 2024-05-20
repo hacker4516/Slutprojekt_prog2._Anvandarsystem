@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c0edcc9-f82b-4fca-8aec-a6585d412c61" name="Changes" comment="la till lite mer men behöver fixa till små fel.">
+    <list default="true" id="6c0edcc9-f82b-4fca-8aec-a6585d412c61" name="Changes" comment="la till lite mer men behöver fixa till små fel.&#10;Comit under lektion m Liv">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AdminUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdminUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnvandarSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnvandarSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LoggaUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoggaUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SkapaUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SkapaUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VanligaUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VanligaUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/korrektafel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KorrektaFel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +90,9 @@
       <workItem from="1715121674486" duration="2411000" />
       <workItem from="1715728971587" duration="6041000" />
       <workItem from="1715739745767" duration="166000" />
+      <workItem from="1715764802743" duration="428000" />
+      <workItem from="1715970328177" duration="478000" />
+      <workItem from="1716188941708" duration="1759000" />
     </task>
     <task id="LOCAL-00001" summary="lite lines">
       <created>1713478351880</created>
@@ -175,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1714473408034</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="la till lite mer men behöver fixa till små fel.&#10;Comit under lektion m Liv">
+      <created>1715764973832</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1715764973833</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,7 +203,8 @@
     <MESSAGE value="boop" />
     <MESSAGE value="ska ändra i LoggaUser klassen men aa" />
     <MESSAGE value="la till lite mer men behöver fixa till små fel." />
-    <option name="LAST_COMMIT_MESSAGE" value="la till lite mer men behöver fixa till små fel." />
+    <MESSAGE value="la till lite mer men behöver fixa till små fel.&#10;Comit under lektion m Liv" />
+    <option name="LAST_COMMIT_MESSAGE" value="la till lite mer men behöver fixa till små fel.&#10;Comit under lektion m Liv" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
