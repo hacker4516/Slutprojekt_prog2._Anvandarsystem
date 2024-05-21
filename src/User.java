@@ -8,8 +8,12 @@ public class User { //detta ska användas för att samla in alla skapade och exi
     public User() {
         nyNamn = new ArrayList<>();
         nyPass = new ArrayList<>();
+        iniateAdminUser();
     }
     //skapar arraylist för namn och koder inom systemet, vilket sedan förs över till SkapaUser osv
+    private void iniateAdminUser() {
+        addUser("Stor", "pojke");
+    }
 
     public ArrayList<String> getNyNamn() {
         return nyNamn;

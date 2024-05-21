@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c0edcc9-f82b-4fca-8aec-a6585d412c61" name="Changes" comment="la till lite mer men behöver fixa till små fel.&#10;Comit under lektion m Liv">
+    <list default="true" id="6c0edcc9-f82b-4fca-8aec-a6585d412c61" name="Changes" comment="commit själv">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AdminUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdminUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +92,8 @@
       <workItem from="1715739745767" duration="166000" />
       <workItem from="1715764802743" duration="428000" />
       <workItem from="1715970328177" duration="478000" />
-      <workItem from="1716188941708" duration="1759000" />
+      <workItem from="1716188941708" duration="1787000" />
+      <workItem from="1716327118605" duration="351000" />
     </task>
     <task id="LOCAL-00001" summary="lite lines">
       <created>1713478351880</created>
@@ -178,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1715764973833</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="commit själv">
+      <created>1716239808295</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1716239808295</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,7 +212,8 @@
     <MESSAGE value="ska ändra i LoggaUser klassen men aa" />
     <MESSAGE value="la till lite mer men behöver fixa till små fel." />
     <MESSAGE value="la till lite mer men behöver fixa till små fel.&#10;Comit under lektion m Liv" />
-    <option name="LAST_COMMIT_MESSAGE" value="la till lite mer men behöver fixa till små fel.&#10;Comit under lektion m Liv" />
+    <MESSAGE value="commit själv" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit själv" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
