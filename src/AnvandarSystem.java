@@ -4,6 +4,7 @@ public class AnvandarSystem {
     private Scanner hanzo;
     private User anvandare;
     //anvandare, alltså user används då över hela koden
+    private AdminUser adminAnvandare;
 
     public AnvandarSystem() {
         hanzo = new Scanner(System.in);

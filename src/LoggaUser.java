@@ -16,9 +16,13 @@ public class LoggaUser { //används för att logga in, förstod inte varför det
         //getter från User klassen som gör så att systemet får in redan skapade användare
 
         boolean loggadIn = false;
+        boolean loggadAdmin = false;
         for (int i = 0; i < nyNamnList.size(); i++) {
             if (nyNamnList.get(i).equalsIgnoreCase(userNamn) && nyPassList.get(i).equals(userPass)) {
                 loggadIn = true;
+                if (userNamn.equalsIgnoreCase("Stor") && userPass.equals("pojke")) {
+                    loggadAdmin = true;
+                }
                 break;
             }
         }
@@ -30,9 +34,13 @@ public class LoggaUser { //används för att logga in, förstod inte varför det
             //här är det möjligt att lägga till en UI till logga in featuren (displayUI(blah blah))
             //när du är loggad in, kommer det att displaya en ui, likt användar system switch delen
             //som exempel kan du visa profil, köpa något, byta lösenord, eller logga ut
+            if (loggadAdmin) {
+                System.out.println("Välkommen Admin!");
+            } else {
+                System.out.println("Välkommen!");
+            }
         } else {
-            System.out.println("Felaktigt användarnamn eller lösenord.");
+            System.out.println("Felaktigt användarnamn eller lösenord!");
         }
-        //bara en if-else metod som visar ifall man har skrivit rätt eller inte
     }
 }
